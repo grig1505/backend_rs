@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+plan.md
+dizain
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Package lock files (optional - можно оставить, если хотите фиксировать версии)
+# package-lock.json
+

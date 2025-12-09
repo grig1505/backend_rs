@@ -1,0 +1,22 @@
+{
+  "name": "quiz-backend",
+  "version": "0.1.0",
+  "description": "Backend для Quiz приложения",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "keywords": ["quiz", "express", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^9.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
+
