@@ -1,0 +1,18 @@
+{
+  "name": "feedback-app",
+  "version": "1.0.0",
+  "description": "Форма: http://localhost:5173/ \r Вход оператора: /login (логин operator@clinic.ru, пароль password123).\r Таблица заявок: /requests (доступна только после входа).",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
